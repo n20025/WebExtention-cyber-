@@ -1,0 +1,29 @@
+@charset "utf-8";
+.ai {
+	font-family: sans-serif;
+}
+.ii {
+	margin-bottom:3;
+}
+.oo {
+	padding: 20px;
+	border: 3px double #300cdc;
+}
+h1 {
+	font-size: 21px;
+}
+h2 {
+	font-size: 18px;
+}
+p {
+	margin-top: 0;
+	margin-top: 0;
+}
+.info {
+	list-style-type: none;
+}
+.oo h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+

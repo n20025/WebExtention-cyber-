@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>自己紹介</title>
+		<meta name="description" content="自己紹介">
+	</head>
+	<body>
+		<h1><mark><strong>自己紹介</strong></mark></h1>
+		<section>
+			<ul>
+				<p><li><h3><b>名前</b>: 宮城瑠唯</h3></li></p>
+				<p><li><h3><b>出身地</b>:　糸満市</h3></li></p>
+				<p><li><h3><b>出身校</b>:　那覇商業高等学校</h3></li></p>
+				<p><li><h3><b>趣味</b>:　バスケ、サッカーなど</h3></li></p>
+				<p><li><h3><b>ITカレッジに入学した理由</b>:　パソコン系の仕事をしたいと思って入学しました。</h3></li></p>
+			</ul>
+		</section>
+	</body>
+</html>
