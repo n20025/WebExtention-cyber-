@@ -1,0 +1,124 @@
+@charset "utf-8";
+.top {
+	background-image: url(image/haikei.jpg);
+}
+
+.hr {
+	height: 5px;
+	background-color: red;
+	width: 100%;
+	border: none;
+}
+
+.he {
+	text-align: center;
+}
+.campus2 {	
+	width: 40em;
+	height: 10em;
+	max-width: 40%;
+}
+.main {
+	color: blue;
+}
+.text1 {
+	font-weight: bold;
+	font-size: 2em;
+}
+.text2 {
+	text-align: center;
+	line-height: 1;
+	border: 1px solid;
+	padding-left: 6em;
+	padding-right: 6em;
+}
+.text3 {
+	background-color: #ffb6c1;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.text4 {
+	box-sizing: border-box:10em;
+}
+
+.side {
+	overflow: hidden;
+}
+
+.item {
+	float: left;
+	padding: 8px 16px;
+	width: 50em;
+}
+
+.lead {
+	color: #0000FF;
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+.color {
+	color: #0000FF;
+	text-align: center;
+}
+
+.color2 {
+	background-color: #0081ba;
+}
+
+.color3 {
+	color: #0081ba;
+}
+
+.box1 {
+	float: left;
+	width: 49%;
+	border: 1px solid;
+	height: 16em;
+}
+
+.box2 {
+	float: right;
+	width: 49%;
+	border: 1px solid;
+}
+
+.box3 {
+	float: left;
+	width: 49%;
+	border: 1px solid;
+	height: 13em;
+}
+
+.pic {
+	float: left;
+	margin: 3em;
+}
+
+.pic2 {
+	float: right;
+	margin: 3em;
+}
+
+.wrap {
+	overflow: hidden;
+}
+
+.wraper {
+	overflow: hidden;
+}
+
+a {
+	color: #0073bc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b7dbf2;
+	text-decoration: underline;
+}
+
+table {
+	border: 1px solid;
+}
