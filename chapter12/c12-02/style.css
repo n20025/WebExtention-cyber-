@@ -5,9 +5,13 @@ body {
 }
 
 .container {
-	padding: 0 16px 0 16px;
 	margin: 0 auto 0 auto;
 	width: 1000px;
+}
+
+section .container {
+    display: flex;
+    flex-flow: column;
 }
 
 .header-inner {
@@ -25,10 +29,11 @@ body {
 	background: #fffde3;
 	height: 400px;
 	padding: 20px 10px 20px 10px;
+    height: 400px;
 }
 
-.sidebar-inner {
-	background: #bad7f5;
+.sidebar {
+	background: #c0f5b9;
 	padding: 20px 10px 20px 10px;
 }
 
@@ -45,3 +50,14 @@ footer {
 	margin-top: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    section .container {
+        flex-flow: row;
+    }
+    main {
+        flex: 1 1 auto;
+    }
+    .sidebar {
+        flex: 0 0 340px;
+    }
+}
