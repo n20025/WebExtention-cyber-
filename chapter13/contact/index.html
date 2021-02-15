@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="../favicon.ico.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="description" content="子どもから大人まで、プログラミングを学ぶなら、Codera。">
     <title>プログラミングスクールCodera</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
     <header>
       <div class="container header-container">
         <div class="header-inner">
           <h1 class="header-logo"><a href="index.html">
-              <img src="images/logo.png" srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="Codera    ">
+              <img src="images/logo.png" srcset="../images/logo.png 1x, ../images/logo@2x.png 2x" alt="Codera    ">
             </a>
           </h1>
           <button class="menu-btn" id="mobile-menu"></button>
@@ -29,30 +29,42 @@
     <nav>
       <div class="container nav-container">
         <ul class="navbar">
-          <li><a href="/index.html">ホーム</a></li>
-          <li><a href="course/index.html">コース紹介</a></li>
-          <li><a href="qanda/index.html">よくある質問</a></li>
-          <li><a href="contact/index.thml">お申し込み</a></li>
+          <li><a href="../index.html">ホーム</a></li>
+          <li><a href="../course/index.html">コース紹介</a></li>
+          <li><a href="../qanda/index.html">よくある質問</a></li>
+          <li><a href="../contact/index.html">お申し込み</a></li>
         </ul>
       </div>  
     </nav>
     <div class="home-keyvisual">
-      <img src-"image/keyvisual.jpg" alt="Codera" class="img-responsive">
+      <img src-"image/keyvisual.jpg" alt="" class="img-responsive">
     </div>
     <section class="main">
-      <div class="container">
-        <main>
-          <h1>お申し込み</h1>
-          <div class="contact">
-            <p>受講をご希望の方は、以下のフォームに必要事項を入力してください。</p>
-            <form action="#" method="POST">
-              <p><label for"name-field">お名前</label><br>
-              <input type="text" name="name" id="name-field"></p>
-              <p><label for="email-field">メールアドレス</label><br>
-              <input type="email" name="email" id="email-field"></p>
-              <p>
-        </main>
-      </div>
+      <main>
+        <h1>お申し込み</h1>
+        <div class="contact">
+          <p>受講をご希望の方は、以下のフォームに必要事項を入力してください。</p>
+          <form action="#" method="POST">
+            <p><label for="name-field">お名前</label><br>
+            <input type="text" name="name" id="name-field"></p>
+            <p><label for="email-field">メールアドレス</label><br>
+            <input type="email" name="email" id="email-field"></p>
+            <p>
+            <label for="course">ご希望のコース</label><br>
+            <select name="course" id="course">
+              <option value="" selected>コースを選択してください</option>
+              <option value="course1">HTML&amp;CSS基礎</option>
+              <option value="course2">WordPressサイト構築</option>
+              <option value="course3">Pythonでデータ解析</option>
+              <option value="course4">Rudyスクレイピング</option>
+            </select>
+            </p>
+            <p><label for="comment">ご意見・ご質問など</label><br>
+            <textarea name="comment" id="comment"></textarea></p>
+            <p><input type="submit" name="submit" value="入力した内容を確認" id="submit"></p>
+          </form>
+        </div>
+      </main>
     </section>
     <footer>
       <div class="container footer-container">
@@ -66,6 +78,6 @@
         </p>
       </div>
     </footer>
-    <script src="script.js"></script> 
+    <script src="../script/script.js"></script> 
   </body>
 </html>
